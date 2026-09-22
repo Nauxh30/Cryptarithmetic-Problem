@@ -77,7 +77,33 @@ SEND = 9567<br>
 MORE = 1085<br>
 <hr>
 MONEY = 10652<br>
+
+
 <hr>
+
+## Algorithm
+
+1. **Start the program.**
+
+2. **Import the `permutations` function** from the `itertools` module to generate different digit combinations.
+
+3. **Identify all the unique letters** in the cryptarithmetic problem.
+
+
+4. **Assign different digits from 0 to 9** to each letter using permutations.
+
+5. **Check the leading letters.** The leading letters `S` and `M` should not be assigned the value `0`.
+
+6. **Convert each word into its corresponding numerical value.**
+
+8. If the equation is **true**, the assigned digits form the solution and the numerical values are displayed.
+
+9. If the equation is **false**, try the next possible digit combination.
+
+10. **Repeat the process** until a valid solution is found or all possible combinations are checked.
+
+11. **Display the final solution and terminate the program.**
+
 <h2>Program</h2>
 
 ```
